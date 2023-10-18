@@ -93,15 +93,15 @@ Test Requirements = 2
 
 **Identify Values**
 
-|  Characteristics             |  B1  |  B2   |
+|  Characteristics             |  B1  |  B2   |  B3 |
 |-------------------------------------------------|------|-------|-------|
-| C1 = 'condition' = 600-622                      | 610 | 650 |    |
+| C1 = 'condition' = 600-622                      | 610 | 650 |  0  |
 |-------------------------------------------------|------|-------|-------|
 | C2 = 'update_time' is time of the weather update| 1600 | 1600 |  1700 |
 |-------------------------------------------------|------|-------|-------|
-| C3 = 'sunrise' is time of sunrise               | 1600 | 1700 |  |
+| C3 = 'sunrise' is time of sunrise               | 1600 | 1700 | 0 |
 |-------------------------------------------------|------|-------|-------|
-| C4 = 'sunset' is time of sunset                 | 1700 | 1600 |  |
+| C4 = 'sunset' is time of sunset                 | 1700 | 1600 | 1600 |
 
 **Derive Test** ECC
 
